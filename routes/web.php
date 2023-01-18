@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return ('yudit branch baru');
+    return ('yudit branch baruuu');
 });
