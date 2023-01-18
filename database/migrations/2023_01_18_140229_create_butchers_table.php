@@ -15,6 +15,9 @@ class CreateButchersTable extends Migration
     {
         Schema::create('butchers', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->integer('price');
+            $table->string('grade');
             $table->timestamps();
         });
     }
